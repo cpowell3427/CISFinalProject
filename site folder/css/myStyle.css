@@ -1,0 +1,228 @@
+body
+{
+margin:0px;
+background-repeat: no-repeat;
+background-position: 50%, 50%;
+ height: 100%;
+ font-family: Century Gothic, Elephant, Engravers MT; 
+  
+}
+
+#bg {
+  /* The image used */
+  background-image: url(https://images.unsplash.com/photo-1519750783826-e2420f4d687f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Century Gothic, Elephant, Engravers MT; 
+}
+body.bg2 {
+	background-image:url(https://images.freecreatives.com/wp-content/uploads/2016/02/Free-Blue-Glitter-Background-For-You.jpg);
+	  /* Full height */
+	height: 100%;
+	
+	  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Century Gothic, Elephant, Engravers MT; 
+  font-size: 14 pt;
+}
+body.bg3{
+	
+	background-image: url(https://ak.picdn.net/shutterstock/videos/8810233/thumb/1.jpg?ip=x480);
+	  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .9;
+  font-family: Century Gothic, Elephant, Engravers MT; 
+  font-size: 14 pt;
+}
+
+body.bg4 {
+  /* The image used */
+  background-image: url(https://images.unsplash.com/photo-1519750783826-e2420f4d687f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Century Gothic, Elephant, Engravers MT; 
+  font-size: 14 pt;
+} 
+
+body.bluebg {
+  /* The image used */
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQN_XoK_wofU3kM-CACkhG-E3E74NHFcO2CRw&usqp=CAU);
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Century Gothic, Elephant, Engravers MT; 
+  font-size: 14 pt;
+}
+	
+
+h1
+{
+font-weight: bold;
+text-decoration: underline;
+color: #000000 ;
+font-size: 160%;
+margin-bottom: 25px;
+margin-top:0px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li {
+  float:left;
+  padding-right: 95px;
+  padding-left: 85px;
+  display: block;
+  color : #FFFFFF ;
+  font-size: 18pt;
+  text-decoration: none;
+  
+}
+
+/* Change the link color on hover */
+ul a:hover {
+ color:#FFB6C1;
+}
+/* Change the link color on active page */
+ul :active {
+  color: #FFFFFFF;	
+  
+}
+/* Change the link color after visiting */
+ul :visited {
+	color: #BDBDBD ;
+	
+}
+
+	
+}
+img.floatr {
+	float:right;
+	
+}
+
+	/*The container to create overlay on homepage images*/
+.container {
+    position: relative;
+    width: 33.3333%;
+    float: left;
+}
+
+.imgss {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+/* container for the images to be appropiate size*/
+div.lrgcontain {
+	width: 50%;
+
+}
+
+
+#formzz {
+	padding-left: 10px;
+	margin-left: 5px;
+	font-size: 14pt;
+	font-weight: bold;
+	
+}
+
+div.ulList2 {
+ font-family:  Century Gothic, Elephant, Engravers MT;
+ color:white;
+ font-size: 15px;
+}
+
+p{ font-size: 14pt;
+font-weight: bold;
+}
+
+#resumeSS {
+border-radius: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.heading{
+text-align: center;
+background-color: #B9D7D9; 
+position: relative;
+vertical-align: top;
+padding-top: 10px;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+	
+}
+th {font-weight: bold;
+	font-size:16 pt;
+}
+
+td,
+th {
+    padding: 5px;
+}
+td.center {
+    text-align: center;
+}
+	
